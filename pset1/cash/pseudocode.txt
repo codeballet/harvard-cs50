@@ -1,0 +1,32 @@
+Calculate amount of coins to give a certain amount of change.
+
+Avaliable coins:
+ - 1c
+ - 5c
+ - 10c
+ - 25c
+
+Use a greedy algorithm.
+
+TODO
+
+1. Promt user for amount of change.
+ - Type in some amount of dollars
+ - use get_float() with decimals
+ - check that the input is non-negative with a do-while loop
+ - convert the number of dollars to cents by multiplying with 100
+ - round the number of cents to nearest penny
+ - use function round() from math.h
+ 
+2. Use the largest coins possible, keep track of coins used.
+ - keep track of remaining change owd
+ - keep track of how many coins used
+ - Alternative 1: use loops:
+  - While we can use quarters, add a quarter.
+  - While we can use dimes, add a dime.
+  - etc.
+ - Alternative 2: check for remainders from using each coin.
+
+3. Print the number of coins.
+ - use a placeholder for a variable
+ - printf("%i\n", coins);

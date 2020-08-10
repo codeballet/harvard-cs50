@@ -1,0 +1,21 @@
+prompt for input
+ - use get_int() from cs50.h
+
+check if input is valid
+if height is less than 1 or greater than 8, go back one step
+ - use a do-while loop
+
+iterate through 1 through height
+ - start with a left aligned pyramid
+ - use a for loop to print hashes and a new line
+ - on iteration i, print i hashes and then a newline
+
+right-align the pyramid by adding dots
+ - print dots
+ - print hashes
+
+print gap
+
+print right hashes
+
+remove the dots and replace with spaces
